@@ -4,14 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/32ae0d2550.js" crossorigin="anonymous"></script>
     <title>Jorge Enrique Vendramini</title>
 </head>
 
+<navbar id="navbar" class="nav">
+    <ul class="navlist">
+        <li>
+            <a href="#welcome-section">About</a>
+        </li>
+        <li>
+            <a href="#projects">Work</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</navbar>
+
 <body>
     <section id="welcome-section">
         <h1>Hey I am Jorge</h1>
+        <br>
         <p>a web developer</p>
     </section>
 
@@ -21,8 +37,35 @@
         </h2>
 
         <div class="projects-grid">
+
+            <a href="https://github.com/jorgevendramini/Healing.git" target="_blank" class="project project-tile">
+                <img class="project-image" src="img/healing.png" alt="">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Healing
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+
+            <a href="https://github.com/jorgevendramini/Django-Crud.git" target="_blank" class="project project-tile">
+                <img class="project-image" src="img/to-do-list.png" alt="">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    To do List
+                    <span class="code">/&gt;</span>
+                </p>
+
+            <a href="https://github.com/SENAI-Morvan-Figueiredo/Dermasoft.git" target="_blank" class="project project-tile">
+                <img class="project-image" src="img/dermasoft.png" alt="">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Dermasoft
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+
             <a href="https://github.com/jorgevendramini/Dev-lusion.git" target="_blank" class="project project-tile">
-                <img class="project-image" src="Devlusion.png" alt="">
+                <img class="project-image" src="img/Devlusion.png" alt="">
                 <p class="project-title">
                     <span class="code">&lt;</span>
                     Devlusion
@@ -31,7 +74,7 @@
             </a>
 
             <a href="#" target="_blank" class="project project-tile">
-                <img class="project-image" src="portfolio.jpg" alt="">
+                <img class="project-image" src="img/portfolio.jpg" alt="">
                 <p class="project-title">
                     <span class="code">&lt;</span>
                     Portfolio
@@ -40,7 +83,7 @@
             </a>
             
             <a href="https://jorgevendramini.github.io/Poke-API/" target="_blank" class="project project-tile">
-                <img class="project-image" src="pokeapi.PNG" alt="">
+                <img class="project-image" src="img/pokeapi.PNG" alt="">
                 <p class="project-title">
                     <span class="code">&lt;</span>
                     Pokedex API
@@ -59,23 +102,10 @@
         </div>
     </section>
 
-    <navbar id="navbar" class="nav">
-        <ul class="navlist">
-            <li>
-                <a href="#welcome-section">About</a>
-            </li>
-            <li>
-                <a href="#projects">Work</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </navbar>
-
     <section id="contact">
         <div class="contact-header">
             <h2>Let's work together...</h2>
+            <br>
             <p>Do you want some coffee or tea ?
         </div>
         <div class="contact-links">
@@ -92,7 +122,10 @@
         <p>
             &copy; 2023 Todos os direitos reservados |
             <span>
-                Feito por Jorge Enrique
+                Feito por Jorge Enrique |
+            </span>
+            <span>
+                Work in progress
             </span>
         </p>
     </footer>
