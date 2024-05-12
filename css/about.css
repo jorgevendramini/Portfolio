@@ -1,0 +1,33 @@
+#about-section{
+    background-color: blue;
+    width: 100%;
+    padding: 2rem;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#me{
+    background-color: brown;
+    text-align: center;
+    padding: 1rem;
+}
+
+#photo{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
